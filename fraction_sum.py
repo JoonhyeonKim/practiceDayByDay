@@ -9,6 +9,6 @@ def solution(denum1, num1, denum2, num2):
         if num3%i==0 and n_denum3%i==0: # Greatest Common Divisor
             gcd = i
 
-    answer = [n_denum3//gcd, num3//gcd]
+    answer = [n_denum3//gcd, num3//gcd] # where num3//gcd==lcm
 
     return answer
