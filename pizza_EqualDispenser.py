@@ -5,6 +5,6 @@ def solution(n):
         if n%i==0 and 6%i==0:
             gcd = i
     lcm=n*6/gcd
-    answer=lcm/6 # where each pizza is dispensed by 6 pieces
+    answer=lcm/6 # where each pizza is dispensed by 6 pieces, then it is (n/gcd) * (6/gcd)
             
     return answer
