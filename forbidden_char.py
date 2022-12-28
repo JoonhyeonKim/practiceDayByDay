@@ -8,3 +8,6 @@ def solution(my_string, letter):
         else:
             answer += my_string[i]
     return answer
+
+### def solution(my_string, letter):
+###    return my_string.replace(letter, '')
