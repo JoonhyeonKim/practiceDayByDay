@@ -23,3 +23,9 @@ def solution(hp):
         answer = 0
             
     return answer
+
+
+## which is obviously not efficient answer, so I peeked other people's one
+
+def solution(hp):    
+    return hp // 5 + (hp % 5 // 3) + ((hp % 5) % 3)
