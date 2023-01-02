@@ -4,3 +4,12 @@ def solution(my_string):
     
     answer = a
     return answer
+
+## then I found this one which is easy to understand
+
+def solution(my_string):
+    answer = ''
+    for i in my_string:
+        if i not in answer:
+            answer+=i
+    return answer
